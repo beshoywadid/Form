@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
-<body style="background: url(Back1.jpg);">
+<body style="background: url(back1.jpg);">
     <form class="slideleft" style="border: 1px solid black; width: 150%; height: 50%px; text-align: center; margin-top: 10%; background-color: black; border-radius: 50px;">
         <h1>Form</h1>
-<b>Username:</b><input id="2"type="text" placeholder="Ex:Beshoy_10" required><br>
-<b>Full Name:</b><input id="2"type="text" placeholder="Ex:XXXXXX XXXXXX XXXXXX XXXXXX" required><br>
-<b>Phone Number:</b><input id="2"type="text" placeholder="Ex:20XXXXXXXXXX" required><br>
-<b>Email:</b><input id="2"type="email" placeholder="Ex:XXXXXXXX@gmail.com" required><br>
-<b>Password:</b><input id="2"type="password" placeholder="Ex:XXXXXX" required><br>
-<b>Confirm Password:</b><input id="2"type="password" placeholder="Ex:XXXXXX" required><br>
-<input id="1"type="radio" value="on" name="1" required><b>Male</b><br>
-<input id="1"type="radio" value="on" name="1" required><b>Female</b>
+<b>Username:</b><input id="2" type="text" placeholder="Ex:Beshoy_10" required><br>
+<b>Full Name:</b><input id="2" type="text" placeholder="Ex:XXXXXX XXXXXX XXXXXX XXXXXX" required><br>
+<b>Phone Number:</b><input id="2" type="text" placeholder="Ex:20XXXXXXXXXX" required><br>
+<b>Email:</b><input id="2" type="email" placeholder="Ex:XXXXXXXX@gmail.com" required><br>
+<b>Password:</b><input id="2" type="password" placeholder="Ex:XXXXXX" required><br>
+<b>Confirm Password:</b><input id="2" type="password" placeholder="Ex:XXXXXX" required><br>
+<b>Search:</b><input id="2" type="search" placeholder="Ex:Search..." required><br>
+<input id="1" type="radio" value="on" name="1" required><b>Male</b><br>
+<input id="1" type="radio" value="on" name="1" required><b>Female</b>
 <br><br>
 <b>Upload CV: </b><label class="button" for="upload">Upload File</label><input id="upload" type="file" hidden><br><br>
 <input id="1" type="checkbox"> <b>agree with our politics</b><br>
@@ -83,6 +84,15 @@
                 color: white;
                 background-color: black;
             }
+            input[type="search"]{
+                width: 300px;
+                height: 25px;
+                transition: 0.6s ease-in-out;
+            }
+            input[type="search"]:hover{
+                color: white;
+                background-color: black;
+            }
             input[type="radio"]{
                 width: 10px;
                 height: 18px;
@@ -146,9 +156,3 @@
     </form>
 </body>
 </html>
-
-
-
-
-
-
